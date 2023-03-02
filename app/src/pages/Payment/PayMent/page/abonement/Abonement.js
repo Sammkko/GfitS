@@ -3,6 +3,7 @@ import Card from '../../components/abonementsComponent/Card'
 import CardModal from '../../components/abonementsComponent/CardModal'
 import CardModalTwo from "../../components/abonementsComponent/CardModalTwo";
 import stl from '../../css/Abonement.module.css'
+import Navbar from "../../../../../components/navbar/Navbar";
 
 const cardsInner = [
     {
@@ -30,7 +31,9 @@ const cardsInner = [
 
 function Abonement() {
     return (
-        <section className={stl.abonement}>
+        <>
+        <Navbar/>
+    <section className={stl.abonement}>
             <div className={stl.container}>
                 <div className={stl.abonement__inner}>
                     <h1>
@@ -46,6 +49,7 @@ function Abonement() {
             <CardModal/>
             <CardModalTwo/>
         </section>
+        </>
     )
 }
 

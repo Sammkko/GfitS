@@ -26,10 +26,11 @@
 .card {
     padding: 30px 30px 20px;
     width: 354px;
-    height: 398px;
+    height: 430px;
     background: #ffffff;
     box-shadow: inset 0px 0px 10px #000000;
     border-radius: 30px;
+    text-align: center;
 }
 
 .n1 {

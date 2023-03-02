@@ -1,6 +1,7 @@
 import { useState } from "react";
 import style from "./cardioLevel.module.css";
 import Navbar from "../../../../components/navbar/Navbar";
+import {Link} from "react-router-dom";
 
 export default function CardioLevel() {
   const text = [
@@ -50,9 +51,15 @@ export default function CardioLevel() {
           ))}
         </div>
         <div className={style.buttons}>
-          <button className={style.btnJun}>Начинающий</button>
-          <button className={style.btnMid}>Продолжающий</button>
-          <button className={style.btnSen}>Продвинутый</button>
+          <Link to={'/Catalog'}>
+            <button className={style.btnJun}>Начинающий</button>
+          </Link>
+          <Link to={'/Catalog'}>
+            <button className={style.btnMid}>Продолжающий</button>
+          </Link>
+          <Link to={'/Catalog'}>
+            <button className={style.btnSen}>Продвинутый</button>
+          </Link>
         </div>
       </div>
     </div>

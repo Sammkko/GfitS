@@ -76,7 +76,7 @@ export default class CardPage extends React.Component {
                         focused={focused}
                         callback={this.handleCallback}
                     />
-                    <form ref={c => (this.form = c)} onSubmit={this.handleSubmit}>
+                    <form className="creditCardForm" ref={c => (this.form = c)} onSubmit={this.handleSubmit}>
                         <div className="creditCard_form">
                             <small>№ карты</small>
 

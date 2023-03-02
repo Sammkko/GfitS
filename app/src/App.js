@@ -8,6 +8,8 @@ import Payment from "./pages/Payment/PayMent/payment";
 import PortfolioPage from "./pages/Profile/pages/portfolioPage/PortfolioPage";
 import Modal from "./components/reg/Register";
 import TreinBlock from "./pages/TreinBlock/treinBlock";
+import Catalog from "./pages/TrainCatalog/Trening_catalog/Catalog";
+import YouTubeProject from "./pages/TreinBlock/components/cardiolevel/youTubePage/YouTubeProject";
 
 function App() {
     const [renderEl,setRender] = useState(false);
@@ -41,11 +43,11 @@ function App() {
                     <Route path={'/tren'} element={<TreinBlock/>}/>
                     <Route path={'/portfolio'} element={<PortfolioPage/>}/>
                     <Route path={'/payment'} element={<Payment/>}/>
-
+                    <Route path={'/catalog'} element={<Catalog/>}/>
+                    <Route path={'/youtube'} element={<YouTubeProject/>}/>
                 </Routes>
             </BrowserRouter>
         </Context.Provider>
-
 );
 }
 
