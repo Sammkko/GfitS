@@ -2,7 +2,7 @@ import React from "react";
 import classes from "./../../style/mobile.module.css";
 import playMarket from "./../../img/playMarket.svg";
 import code from "./../../img/QRcode.svg";
-import tel from "./../../img/telefon.png";
+import tel from "./../../img/phone.png";
 
 function Mobile() {
   return (

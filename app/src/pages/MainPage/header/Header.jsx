@@ -19,7 +19,9 @@ const Header = () => {
               Плата за подписку начинается после окончания
               <br/> бесплатного пробного периода
             </span>
-                        <button className="Buttons Neons">Бесплатно 12 дней</button>
+                        <Link to="/tren">
+                            <button className="Buttons Neons">Бесплатно 12 дней</button>
+                        </Link>
                         <Link to="/payment">
                             <button className="buttons neons">Другие абонементы</button>
                         </Link>

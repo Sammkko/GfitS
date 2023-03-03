@@ -107,7 +107,7 @@
   width: 263px;
   align-items: center;
   justify-content: center;
-  background-image: url(../img/telefon.png) no-repeat center;
+  background-image: url(../img/phone.png) no-repeat center;
   background-size: cover;
 }
 .mobile__text p .mobile__img img {

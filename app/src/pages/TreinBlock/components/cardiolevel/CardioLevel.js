@@ -51,13 +51,13 @@ export default function CardioLevel() {
           ))}
         </div>
         <div className={style.buttons}>
-          <Link to={'/Catalog'}>
+          <Link to={'/catalogElementary'}>
             <button className={style.btnJun}>Начинающий</button>
           </Link>
-          <Link to={'/Catalog'}>
+          <Link to={'/catalogContinuing'}>
             <button className={style.btnMid}>Продолжающий</button>
           </Link>
-          <Link to={'/Catalog'}>
+          <Link to={'/catalogAdvanced'}>
             <button className={style.btnSen}>Продвинутый</button>
           </Link>
         </div>

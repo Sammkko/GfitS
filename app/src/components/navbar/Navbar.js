@@ -27,9 +27,9 @@ function Navbar() {
                           <Link to={'/tren'}><button className="headerButton Neon">Тренировки</button></Link>
                             <button onClick={() =>{obj  .setModalChek(true)} } className="headerButton2 neon">Войти</button>
 
-                            {/*<link to={'/portfolio'}>*/}
+                            {/*<Link to={'/portfolio'}>*/}
                             {/*    <img src={iconPortfolio} alt=""/>*/}
-                            {/*</link>*/}
+                            {/*</Link>*/}
 
                             {obj.modalCheck? <Modal  />:null}
                             {obj.modalCheck2? <RegistrationForm />:null}

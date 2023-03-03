@@ -3,9 +3,8 @@ import classes from "./css/catalog.module.css";
 import Star from "./Star";
 import zamok from './img/zamok.svg';
 import {Link} from "react-router-dom";
-import Navbar from "../../../components/navbar/Navbar";
 
-export default function Catalog() {
+export default function CatalogJun() {
   const [cardArray, setCardArray] = useState([]);
   const [open, setOpen] = useState({ pageIndex: [], isOpen: false }); // изменяем состояние open
   const handleOpen = (pageIndex) => () => {
@@ -80,7 +79,7 @@ export default function Catalog() {
     <div className={classes.CatalogContainer}>
     <div className={classes.levels}>
       <h2>Тренировки</h2>
-      <span>Уровень:{}</span>
+      <span>Уровень: Начинающий</span>
     </div>
           <div className={classes.horizanalLine}></div>
     </div>
